@@ -7,4 +7,5 @@ app.get("/", function(req, res) {
 
 var port = process.env.PORT || 4321;
 console.log("Listening to", port);
+
 app.listen(port);
